@@ -1,6 +1,7 @@
 var name = "Beth"
+var nameOne = "Macy"
 if (name == "Abby") {
 console.log("Hello, Abby!");}
-else if (name !== "Abby") {
-console.log("Hello, Stranger!");
+else if (name !== "Abby" && nameOne == "Macy") {
+console.log("Hello, Macy!");
 }
